@@ -55,7 +55,7 @@ cd quickstart
 echo "PLAID_CLIENT_ID=$PLAID_CLIENT_ID" | tee -a .env
 echo "PLAID_SECRET=$PLAID_CLIENT_SECRET" | tee -a .env
 echo "PLAID_ENV=$PLAID_ENV_TYPE" | tee -a .env
-echo "PLAID_ENV=$PLAID_ENV_TYPE" | tee -a .env
+echo "PLAID_COUNTRY_CODES=US,CA" | tee -a .env
 echo "PLAID_PRODUCTS=auth,transactions" | tee -a .env
 echo "PLAID_REDIRECT_URI=" | tee -a .env
 
