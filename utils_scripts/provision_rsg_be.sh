@@ -1,3 +1,4 @@
+#!/bin/bash
 ### Author: Nico J. (nico.javelaud@protonmail.com)###
 ### Notes: 
 ###	1/ Unless required use base Debian 12 template - 
